@@ -6376,11 +6376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LinkedIn\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj",
+      "projectUniqueName": "E:\\LinkedIn\\LinkedIn-master\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj",
       "projectName": "LinkedInApplication.UnitOfWork",
-      "projectPath": "D:\\LinkedIn\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj",
+      "projectPath": "E:\\LinkedIn\\LinkedIn-master\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "D:\\LinkedIn\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\obj\\",
+      "outputPath": "E:\\LinkedIn\\LinkedIn-master\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6396,8 +6396,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\LinkedIn\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
-              "projectPath": "D:\\LinkedIn\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
+            "E:\\LinkedIn\\LinkedIn-master\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
+              "projectPath": "E:\\LinkedIn\\LinkedIn-master\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
             }
           }
         }
