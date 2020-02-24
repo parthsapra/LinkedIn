@@ -2,9 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\LinkedInApplication",
+    "\\LinkedInApplication\\LinkedInApplication.BoundedContext",
+    "\\LinkedInApplication\\LinkedInApplication.BoundedContext\\DbContext",
+    "\\LinkedInApplication\\LinkedInApplication.BoundedContext\\DbContext\\Main",
     "\\LinkedInApplication\\LinkedInApplication.Domain",
+    "\\LinkedInApplication\\LinkedInApplication.Domain\\obj",
+    "\\LinkedInApplication\\LinkedInApplication.Models",
     "\\LinkedInApplication\\LinkedInApplication.Models\\DbEntities"
   ],
-  "SelectedNode": "\\LinkedInApplication\\LinkedInApplication.Domain",
+  "SelectedNode": "\\LinkedInApplication\\LinkedInApplication.BoundedContext\\DbContext",
   "PreviewInSolutionExplorer": false
 }
