@@ -1,0 +1,32 @@
+{
+  "projects": {
+    "api": "LinkedInApplication.Api",
+    "model": "LinkedInApplication.Models",
+    "context": "LinkedInApplication.BoundedContext",
+    "domain": "LinkedInApplication.Domain",
+	"unitOfWork": "LinkedInApplication.UnitOfWork",
+    "infrastructure": "LinkedInApplication.Infrastructure",
+    "azureFunctionHttp":"",
+    "portal":"",
+    "azureFunctionBackground":""
+  },
+  "path": {
+    "dbConnection": {
+      "main": "Database.ConnectionString.Main"
+    },
+    "folder": {
+      "model": "DbEntities",
+      "context": "",
+	  "enums": "",
+	  "localizeValidationMessage": "wwwroot"
+    }
+  },
+  "annotations": {
+    "rxweb": false
+  },
+  "config": {
+    "generateEnums": false,
+    "commanTableSchema": "dbo",
+    "validationMessageLocalizationId": "15"
+  }
+}
