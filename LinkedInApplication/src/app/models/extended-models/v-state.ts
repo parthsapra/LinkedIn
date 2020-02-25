@@ -11,5 +11,4 @@ export class vState extends vStateBase
 //#endregion Generated Reference Properties
 
 
-
 }

@@ -89,6 +89,13 @@ namespace LinkedInApplication.Models.Main
 
         public string UserLastName { get; set; }
 
+		#region UserEmailId Annotations
+
+        [MaxLength(50)]
+		#endregion UserEmailId Annotations
+
+        public string UserEmailId { get; set; }
+
 		#region UserMobileNumber Annotations
 
         [MaxLength(50)]
@@ -96,15 +103,8 @@ namespace LinkedInApplication.Models.Main
 
         public string UserMobileNumber { get; set; }
 
-		#region UserEmail Annotations
 
-        [MaxLength(50)]
-		#endregion UserEmail Annotations
-
-        public string UserEmail { get; set; }
-
-
-        public Nullable<System.DateTimeOffset> UserRegisterDate { get; set; }
+        public Nullable<System.DateTimeOffset> RegisterDate { get; set; }
 
 		#region ApplicationUserTokens Annotations
 

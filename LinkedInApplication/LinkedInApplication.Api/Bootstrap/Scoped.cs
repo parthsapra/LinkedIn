@@ -37,7 +37,13 @@ namespace LinkedInApplication.Api.Bootstrap
             serviceCollection.AddScoped<IMasterUow, MasterUow>();
                         serviceCollection.AddScoped<IUserContext, UserContext>();
             serviceCollection.AddScoped<IUserUow, UserUow>();
+                        serviceCollection.AddScoped<ICompanyContext, CompanyContext>();
+            serviceCollection.AddScoped<ICompanyUow, CompanyUow>();
             #endregion ContextService
+
+
+
+
 
 
 
