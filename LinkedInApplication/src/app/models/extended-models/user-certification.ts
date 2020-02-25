@@ -7,5 +7,8 @@ export class UserCertification extends UserCertificationBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
+
 }

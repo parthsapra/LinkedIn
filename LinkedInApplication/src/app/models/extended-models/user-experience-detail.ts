@@ -7,5 +7,8 @@ export class UserExperienceDetail extends UserExperienceDetailBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
+
 }

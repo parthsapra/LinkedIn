@@ -16,7 +16,6 @@ namespace LinkedInApplication.BoundedContext.Main
         public MasterContext(MainSqlDbContext sqlDbContext,  IOptions<DatabaseConfig> databaseConfig, IHttpContextAccessor contextAccessor,ITenantDbConnectionInfo tenantDbConnection): base(sqlDbContext, databaseConfig.Value, contextAccessor,tenantDbConnection){ }
 
             #region DbSets
-     
             		public DbSet<City> City { get; set; }
 		public DbSet<State> State { get; set; }
 		public DbSet<Country> Country { get; set; }

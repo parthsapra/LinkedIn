@@ -7,5 +7,11 @@ export class vLocation extends vLocationBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
+
+
+
+
 }

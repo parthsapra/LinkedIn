@@ -7,5 +7,11 @@ export class Company extends CompanyBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
+
+
+
+
 }

@@ -8,7 +8,9 @@ using RxWeb.Core;
 using LinkedInApplication.UnitOfWork.DbEntityAudit;
 using LinkedInApplication.BoundedContext.Main;
 using LinkedInApplication.UnitOfWork.Main;
-#endregion Namespace
+using LinkedInApplication.Domain.UserModule;
+            #endregion Namespace
+
 
 
 
@@ -34,10 +36,7 @@ namespace LinkedInApplication.Api.Bootstrap
             serviceCollection.AddScoped<IMasterUow, MasterUow>();
                         serviceCollection.AddScoped<IUserContext, UserContext>();
             serviceCollection.AddScoped<IUserUow, UserUow>();
-                        serviceCollection.AddScoped<ICompanyContext, CompanyContext>();
-            serviceCollection.AddScoped<ICompanyUow, CompanyUow>();
             #endregion ContextService
-
 
 
 
@@ -45,7 +44,10 @@ namespace LinkedInApplication.Api.Bootstrap
 
             #region DomainService
 
+            
+            serviceCollection.AddScoped<IUserDomain, UserDomain>();
             #endregion DomainService
+
         }
     }
 }

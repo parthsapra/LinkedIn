@@ -23,7 +23,6 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("States","dbo","","StateId")]
 		#endregion StateId Annotations
 
         public int StateId { get; set; }
@@ -35,14 +34,6 @@ namespace LinkedInApplication.Models.Main
 		#endregion CityName Annotations
 
         public string CityName { get; set; }
-
-		#region State Annotations
-
-        [ForeignKey(nameof(StateId))]
-        [InverseProperty(nameof(LinkedInApplication.Models.Main.State.Cities))]
-		#endregion State Annotations
-
-        public virtual State State { get; set; }
 
 
         public City()

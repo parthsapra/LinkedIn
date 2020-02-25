@@ -7,5 +7,8 @@ export class Job extends JobBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
+
 }

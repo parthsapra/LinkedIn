@@ -16,6 +16,4 @@ export class CountryBase {
         countryName : string;
 //#endregion countryName Prop
 
-
-
 }

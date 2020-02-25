@@ -7,5 +7,10 @@ export class vCompanyDetail extends vCompanyDetailBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
+
+
+
 }

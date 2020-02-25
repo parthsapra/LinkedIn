@@ -31,30 +31,13 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("Countries","dbo","","CountryId")]
 		#endregion CountryId Annotations
 
         public int CountryId { get; set; }
 
-		#region Country Annotations
-
-        [ForeignKey(nameof(CountryId))]
-        [InverseProperty(nameof(LinkedInApplication.Models.Main.Country.States))]
-		#endregion Country Annotations
-
-        public virtual Country Country { get; set; }
-
-		#region Cities Annotations
-
-        [InverseProperty("State")]
-		#endregion Cities Annotations
-
-        public virtual ICollection<City> Cities { get; set; }
-
 
         public State()
         {
-			Cities = new HashSet<City>();
         }
 	}
 }

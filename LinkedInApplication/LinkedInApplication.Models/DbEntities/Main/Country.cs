@@ -27,17 +27,9 @@ namespace LinkedInApplication.Models.Main
 
         public string CountryName { get; set; }
 
-		#region States Annotations
-
-        [InverseProperty("Country")]
-		#endregion States Annotations
-
-        public virtual ICollection<State> States { get; set; }
-
 
         public Country()
         {
-			States = new HashSet<State>();
         }
 	}
 }

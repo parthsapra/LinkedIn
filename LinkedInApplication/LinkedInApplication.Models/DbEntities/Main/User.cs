@@ -43,6 +43,14 @@ namespace LinkedInApplication.Models.Main
 
         public string LanguageCode { get; set; }
 
+		#region UserName Annotations
+
+        [Required]
+        [MaxLength(50)]
+		#endregion UserName Annotations
+
+        public string UserName { get; set; }
+
 		#region Password Annotations
 
         [Required]
@@ -74,34 +82,29 @@ namespace LinkedInApplication.Models.Main
 
         public Status StatusId { get; set; }
 
-		#region UserEmail Annotations
-
-        [MaxLength(200)]
-		#endregion UserEmail Annotations
-
-        public string UserEmail { get; set; }
-
-		#region UserMobileNumber Annotations
-
-        [MaxLength(10)]
-		#endregion UserMobileNumber Annotations
-
-        public string UserMobileNumber { get; set; }
-
-		#region UserName Annotations
-
-        [Required]
-        [MaxLength(50)]
-		#endregion UserName Annotations
-
-        public string UserName { get; set; }
-
 		#region UserLastName Annotations
 
         [MaxLength(50)]
 		#endregion UserLastName Annotations
 
         public string UserLastName { get; set; }
+
+		#region UserMobileNumber Annotations
+
+        [MaxLength(50)]
+		#endregion UserMobileNumber Annotations
+
+        public string UserMobileNumber { get; set; }
+
+		#region UserEmail Annotations
+
+        [MaxLength(50)]
+		#endregion UserEmail Annotations
+
+        public string UserEmail { get; set; }
+
+
+        public Nullable<System.DateTimeOffset> UserRegisterDate { get; set; }
 
 		#region ApplicationUserTokens Annotations
 

@@ -7,5 +7,11 @@ export class Speciality extends SpecialityBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
+
+
+
+
 }
