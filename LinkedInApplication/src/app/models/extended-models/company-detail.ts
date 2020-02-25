@@ -13,4 +13,11 @@ export class CompanyDetail extends CompanyDetailBase
 
 
 
+
+
+
+
+
+
+
 }

@@ -9,7 +9,8 @@ using LinkedInApplication.UnitOfWork.DbEntityAudit;
 using LinkedInApplication.BoundedContext.Main;
 using LinkedInApplication.UnitOfWork.Main;
 using LinkedInApplication.Domain.UserModule;
-            #endregion Namespace
+#endregion Namespace
+
 
 
 
@@ -46,7 +47,12 @@ namespace LinkedInApplication.Api.Bootstrap
 
             
             serviceCollection.AddScoped<IUserDomain, UserDomain>();
+            
+            serviceCollection.AddScoped<IUserDetailDomain, UserDetailDomain>();
             #endregion DomainService
+
+
+
 
         }
     }

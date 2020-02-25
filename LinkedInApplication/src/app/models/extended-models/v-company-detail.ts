@@ -13,4 +13,11 @@ export class vCompanyDetail extends vCompanyDetailBase
 
 
 
+
+
+
+
+
+
+
 }

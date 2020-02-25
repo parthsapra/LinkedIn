@@ -7,9 +7,10 @@
     "\\LinkedInApplication\\LinkedInApplication.BoundedContext\\DbContext\\Main",
     "\\LinkedInApplication\\LinkedInApplication.Domain",
     "\\LinkedInApplication\\LinkedInApplication.Domain\\obj",
+    "\\LinkedInApplication\\LinkedInApplication.Domain\\UserDomain",
     "\\LinkedInApplication\\LinkedInApplication.Models",
     "\\LinkedInApplication\\LinkedInApplication.Models\\DbEntities"
   ],
-  "SelectedNode": "\\LinkedInApplication\\LinkedInApplication.BoundedContext\\DbContext",
+  "SelectedNode": "\\rxweb-tool",
   "PreviewInSolutionExplorer": false
 }

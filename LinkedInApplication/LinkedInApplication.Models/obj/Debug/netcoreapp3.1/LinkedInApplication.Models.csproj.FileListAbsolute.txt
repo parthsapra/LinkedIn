@@ -6,3 +6,11 @@ D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\Linked
 D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfo.cs
 D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
 D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.deps.json
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfo.cs
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb

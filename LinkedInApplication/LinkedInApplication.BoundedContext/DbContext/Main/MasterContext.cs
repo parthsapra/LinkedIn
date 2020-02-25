@@ -19,7 +19,11 @@ namespace LinkedInApplication.BoundedContext.Main
             		public DbSet<City> City { get; set; }
 		public DbSet<State> State { get; set; }
 		public DbSet<Country> Country { get; set; }
-            #endregion DbSets
+
+        public DbSet<vCountry> vCountry { get; set; }
+        public DbSet<vState> vState { get; set; }
+        public DbSet<vCity> vCity { get; set; }
+        #endregion DbSets
 
 
     }

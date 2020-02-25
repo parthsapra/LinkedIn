@@ -16,7 +16,15 @@ namespace LinkedInApplication.BoundedContext.Main
         public UserContext(MainSqlDbContext sqlDbContext,  IOptions<DatabaseConfig> databaseConfig, IHttpContextAccessor contextAccessor,ITenantDbConnectionInfo tenantDbConnection): base(sqlDbContext, databaseConfig.Value, contextAccessor,tenantDbConnection){ }
 
             #region DbSets
+        public DbSet<User> Users { get; set; }
+		public DbSet<UserSkill> UserSkills { get; set; }
+		public DbSet<UserExperienceDetail> UserExperienceDetail { get; set; }
+		public DbSet<UserEducationDetail> UserEducationDetail { get; set; }
+		public DbSet<UserDetail> UserDetail { get; set; }
+		public DbSet<UserCertification> UserCertification { get; set; }
+		public DbSet<Post> Post { get; set; }
             #endregion DbSets
+
 
     }
 

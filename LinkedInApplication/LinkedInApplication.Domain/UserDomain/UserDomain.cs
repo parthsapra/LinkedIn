@@ -13,15 +13,14 @@ namespace LinkedInApplication.Domain.UserModule
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync(User entity)
+        public async Task<object> GetAsync(User entity)
         {
-            throw new NotImplementedException();
+            return await Uow.Repository<User>().AllAsync();
         }
 
-        public Task<object> GetBy(User entity)
+        public async Task<object> GetBy(User entity)
         {
-            
-            throw new NotImplementedException();
+            return await Uow.Repository<User>().FindByAsync(t => t.UserId == entity.UserId);
         }
         
 

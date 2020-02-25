@@ -6837,11 +6837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj",
       "projectName": "LinkedInApplication.Domain",
-      "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj",
+      "projectPath": "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "D:\\LinkedInApplication\\LinkedInApplication.Domain\\obj\\",
+      "outputPath": "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6857,17 +6857,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
+            "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
             },
-            "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj"
+            "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj"
             },
-            "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj"
+            "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj"
             },
-            "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj"
+            "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\parthsapra\\LinkedIn\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj"
             }
           }
         }
