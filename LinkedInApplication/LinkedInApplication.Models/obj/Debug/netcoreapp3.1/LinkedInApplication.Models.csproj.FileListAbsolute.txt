@@ -6,3 +6,11 @@ D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\Linked
 D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfo.cs
 D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
 D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb
+E:\new\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.deps.json
+E:\new\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+E:\new\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb
+E:\new\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.csprojAssemblyReference.cache
+E:\new\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfoInputs.cache
+E:\new\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfo.cs
+E:\new\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+E:\new\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb

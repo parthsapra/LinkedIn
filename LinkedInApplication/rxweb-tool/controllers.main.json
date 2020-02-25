@@ -1,1 +1,1 @@
-{"Users":{"type":"Domain","parent":null}}
+{"Users":{"type":"Domain","parent":null},"Company":{"type":"","parent":null},"Job":{"type":"","parent":null},"Country":{"type":"Lookup","parent":null},"CountryLookups":{"type":"Lookup","parent":null},"StateLookups":{"type":"Lookup","parent":null},"CityLookups":{"type":"Lookup","parent":null},"User":{"type":"Search","parent":null},"SearchJobResult":{"type":"Search","parent":null}}

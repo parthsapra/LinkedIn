@@ -11,4 +11,10 @@ export class UserSkill extends UserSkillBase
 //#endregion Generated Reference Properties
 
 
+
+
+
+
+
+
 }

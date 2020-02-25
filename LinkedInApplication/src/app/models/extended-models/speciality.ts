@@ -14,4 +14,10 @@ export class Speciality extends SpecialityBase
 
 
 
+
+
+
+
+
+
 }

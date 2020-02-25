@@ -11,4 +11,10 @@ export class UserDetail extends UserDetailBase
 //#endregion Generated Reference Properties
 
 
+
+
+
+
+
+
 }
