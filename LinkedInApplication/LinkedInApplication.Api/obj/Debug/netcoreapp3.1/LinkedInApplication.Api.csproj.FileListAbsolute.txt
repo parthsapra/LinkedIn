@@ -168,8 +168,6 @@ C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInAppl
 C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\bin\Debug\netcoreapp3.1\LinkedInApplication.Infrastructure.pdb
 C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\bin\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.pdb
 C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\obj\Debug\netcoreapp3.1\LinkedInApplication.Api.csprojAssemblyReference.cache
-C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\obj\Debug\netcoreapp3.1\LinkedInApplication.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\obj\Debug\netcoreapp3.1\LinkedInApplication.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\obj\Debug\netcoreapp3.1\LinkedInApplication.Api.AssemblyInfoInputs.cache
 C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\obj\Debug\netcoreapp3.1\LinkedInApplication.Api.AssemblyInfo.cs
 C:\Users\radix\source\repos\parthsapra\LinkedIn\LinkedInApplication\LinkedInApplication.Api\obj\Debug\netcoreapp3.1\LinkedInApplication.Api.RazorTargetAssemblyInfo.cache
