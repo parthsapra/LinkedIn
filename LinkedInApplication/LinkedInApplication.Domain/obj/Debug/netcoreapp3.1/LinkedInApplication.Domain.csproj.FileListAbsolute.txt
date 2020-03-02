@@ -1,0 +1,17 @@
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.Domain.deps.json
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.Domain.dll
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.Domain.pdb
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.BoundedContext.dll
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.Infrastructure.dll
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.dll
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.BoundedContext.pdb
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.pdb
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb
+D:\LinkedInApplication\LinkedInApplication.Domain\bin\Debug\netcoreapp3.1\LinkedInApplication.Infrastructure.pdb
+D:\LinkedInApplication\LinkedInApplication.Domain\obj\Debug\netcoreapp3.1\LinkedInApplication.Domain.csprojAssemblyReference.cache
+D:\LinkedInApplication\LinkedInApplication.Domain\obj\Debug\netcoreapp3.1\LinkedInApplication.Domain.AssemblyInfoInputs.cache
+D:\LinkedInApplication\LinkedInApplication.Domain\obj\Debug\netcoreapp3.1\LinkedInApplication.Domain.AssemblyInfo.cs
+D:\LinkedInApplication\LinkedInApplication.Domain\obj\Debug\netcoreapp3.1\LinkedInApplication.Domain.csproj.CopyComplete
+D:\LinkedInApplication\LinkedInApplication.Domain\obj\Debug\netcoreapp3.1\LinkedInApplication.Domain.dll
+D:\LinkedInApplication\LinkedInApplication.Domain\obj\Debug\netcoreapp3.1\LinkedInApplication.Domain.pdb

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinkedInApplication.BoundedContext\LinkedInApplication.BoundedContext.csproj" />
+    <ProjectReference Include="..\LinkedInApplication.UnitOfWork\LinkedInApplication.UnitOfWork.csproj" />
+    <ProjectReference Include="..\LinkedInApplication.Models\LinkedInApplication.Models.csproj" />
+    <ProjectReference Include="..\LinkedInApplication.Infrastructure\LinkedInApplication.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

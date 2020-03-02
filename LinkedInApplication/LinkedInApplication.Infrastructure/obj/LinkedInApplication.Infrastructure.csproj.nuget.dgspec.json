@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj",
+        "projectName": "LinkedInApplication.BoundedContext",
+        "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj": {
+                "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "RxWeb.Core.Data": {
+              "target": "Package",
+              "version": "[3.0.2-preview1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj",
+        "projectName": "LinkedInApplication.Infrastructure",
+        "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
+                "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
+              },
+              "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj": {
+                "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj"
+              },
+              "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj": {
+                "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "RxWeb.Core": {
+              "target": "Package",
+              "version": "[2.0.3-preview1, )"
+            },
+            "RxWeb.Core.Annotations": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "RxWeb.Core.Cache": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "RxWeb.Core.Sanitizers": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "RxWeb.Core.Security": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj",
+        "projectName": "LinkedInApplication.Models",
+        "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "D:\\LinkedInApplication\\LinkedInApplication.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "RxWeb.Core.Annotations": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "RxWeb.Core.Data": {
+              "target": "Package",
+              "version": "[3.0.2-preview1, )"
+            },
+            "RxWeb.Core.Sanitizers": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj",
+        "projectName": "LinkedInApplication.UnitOfWork",
+        "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
+        "outputPath": "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
+                "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

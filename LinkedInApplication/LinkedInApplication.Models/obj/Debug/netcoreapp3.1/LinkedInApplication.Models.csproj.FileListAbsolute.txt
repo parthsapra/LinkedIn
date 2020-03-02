@@ -1,0 +1,8 @@
+D:\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.deps.json
+D:\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+D:\LinkedInApplication\LinkedInApplication.Models\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb
+D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.csprojAssemblyReference.cache
+D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfoInputs.cache
+D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.AssemblyInfo.cs
+D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+D:\LinkedInApplication\LinkedInApplication.Models\obj\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb

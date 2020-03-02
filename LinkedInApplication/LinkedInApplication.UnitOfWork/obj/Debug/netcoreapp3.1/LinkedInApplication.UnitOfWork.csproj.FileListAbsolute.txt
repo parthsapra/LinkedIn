@@ -1,0 +1,13 @@
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\bin\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.deps.json
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\bin\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.dll
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\bin\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.pdb
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\bin\Debug\netcoreapp3.1\LinkedInApplication.BoundedContext.dll
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.dll
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\bin\Debug\netcoreapp3.1\LinkedInApplication.BoundedContext.pdb
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\bin\Debug\netcoreapp3.1\LinkedInApplication.Models.pdb
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\obj\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.csprojAssemblyReference.cache
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\obj\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.AssemblyInfoInputs.cache
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\obj\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.AssemblyInfo.cs
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\obj\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.csproj.CopyComplete
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\obj\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.dll
+D:\LinkedInApplication\LinkedInApplication.UnitOfWork\obj\Debug\netcoreapp3.1\LinkedInApplication.UnitOfWork.pdb
