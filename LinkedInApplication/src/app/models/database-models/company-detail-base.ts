@@ -68,4 +68,12 @@ export class CompanyDetailBase {
         overviewOfCompany : string;
 //#endregion overviewOfCompany Prop
 
+
+
+
+
+
+
+
+
 }

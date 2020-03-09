@@ -30,6 +30,7 @@ namespace LinkedInApplication.Models.Main
 
 		#region IndustryName Annotations
 
+        [Required]
         [MaxLength(50)]
 		#endregion IndustryName Annotations
 

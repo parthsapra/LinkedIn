@@ -25,8 +25,8 @@ export class LinkedInUserBase {
 
 
 //#region lIRegistrationDate Prop
-        @prop()
-        lIRegistrationDate : Date;
+        @required()
+        lIRegistrationDate : any;
 //#endregion lIRegistrationDate Prop
 
 
@@ -48,18 +48,17 @@ export class LinkedInUserBase {
 //#endregion isActive Prop
 
 
-//#region lIPassword Prop
+//#region password Prop
+        @required()
         @maxLength({value:50})
-        lIPassword : any;
-//#endregion lIPassword Prop
+        password : any;
+//#endregion password Prop
 
 
-//#region lISalt Prop
-        @maxLength({value:50})
-        lISalt : any;
-//#endregion lISalt Prop
-
-
+//#region salt Prop
+        @maxLength({value:140})
+        salt : any;
+//#endregion salt Prop
 
 
 

@@ -15,10 +15,18 @@ namespace LinkedInApplication.Models.Main
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        [RelationshipTableAttribue("LinkedInUsers","dbo","","UserDetailId")]
 		#endregion UserDetailId Annotations
 
         public int UserDetailId { get; set; }
+
+		#region UserId Annotations
+
+        [Range(1,int.MaxValue)]
+        [Required]
+        [RelationshipTableAttribue("LinkedInUsers","dbo","","UserId")]
+		#endregion UserId Annotations
+
+        public int UserId { get; set; }
 
 		#region Gender Annotations
 
@@ -37,12 +45,24 @@ namespace LinkedInApplication.Models.Main
 
         public Nullable<int> ConnectionCount { get; set; }
 
+		#region CityId Annotations
+
+        [RelationshipTableAttribue("Cities","dbo","","CityId")]
+		#endregion CityId Annotations
 
         public Nullable<int> CityId { get; set; }
 
+		#region StateId Annotations
+
+        [RelationshipTableAttribue("States","dbo","","StateId")]
+		#endregion StateId Annotations
 
         public Nullable<int> StateId { get; set; }
 
+		#region CountryId Annotations
+
+        [RelationshipTableAttribue("Countries","dbo","","CountryId")]
+		#endregion CountryId Annotations
 
         public Nullable<int> CountryId { get; set; }
 
@@ -53,21 +73,37 @@ namespace LinkedInApplication.Models.Main
 
         public string Headline { get; set; }
 
-		#region UserId Annotations
+		#region City Annotations
 
-        [Range(1,int.MaxValue)]
-        [Required]
-		#endregion UserId Annotations
+        [ForeignKey(nameof(CityId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.City.UserDetails))]
+		#endregion City Annotations
 
-        public int UserId { get; set; }
+        public virtual City City { get; set; }
+
+		#region Country Annotations
+
+        [ForeignKey(nameof(CountryId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.Country.UserDetails))]
+		#endregion Country Annotations
+
+        public virtual Country Country { get; set; }
 
 		#region LinkedInUser Annotations
 
-        [ForeignKey(nameof(UserDetailId))]
+        [ForeignKey(nameof(UserId))]
         [InverseProperty(nameof(LinkedInApplication.Models.Main.LinkedInUser.UserDetails))]
 		#endregion LinkedInUser Annotations
 
         public virtual LinkedInUser LinkedInUser { get; set; }
+
+		#region State Annotations
+
+        [ForeignKey(nameof(StateId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.State.UserDetails))]
+		#endregion State Annotations
+
+        public virtual State State { get; set; }
 
 
         public UserDetail()

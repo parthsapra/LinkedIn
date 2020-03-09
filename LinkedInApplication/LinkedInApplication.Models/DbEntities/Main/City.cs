@@ -23,6 +23,7 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
+        [RelationshipTableAttribue("States","dbo","","StateId")]
 		#endregion StateId Annotations
 
         public int StateId { get; set; }
@@ -35,9 +36,41 @@ namespace LinkedInApplication.Models.Main
 
         public string CityName { get; set; }
 
+		#region State Annotations
+
+        [ForeignKey(nameof(StateId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.State.Cities))]
+		#endregion State Annotations
+
+        public virtual State State { get; set; }
+
+		#region Headquarters Annotations
+
+        [InverseProperty("City")]
+		#endregion Headquarters Annotations
+
+        public virtual ICollection<Headquarters> Headquarters { get; set; }
+
+		#region CompanyDetails Annotations
+
+        [InverseProperty("City")]
+		#endregion CompanyDetails Annotations
+
+        public virtual ICollection<CompanyDetail> CompanyDetails { get; set; }
+
+		#region UserDetails Annotations
+
+        [InverseProperty("City")]
+		#endregion UserDetails Annotations
+
+        public virtual ICollection<UserDetail> UserDetails { get; set; }
+
 
         public City()
         {
+			Headquarters = new HashSet<Headquarters>();
+			CompanyDetails = new HashSet<CompanyDetail>();
+			UserDetails = new HashSet<UserDetail>();
         }
 	}
 }

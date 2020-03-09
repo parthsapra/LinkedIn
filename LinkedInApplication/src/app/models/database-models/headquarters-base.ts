@@ -50,4 +50,12 @@ export class HeadquartersBase {
         foundDate : Date;
 //#endregion foundDate Prop
 
+
+
+
+
+
+
+
+
 }

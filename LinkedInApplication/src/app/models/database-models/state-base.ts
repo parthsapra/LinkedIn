@@ -23,4 +23,14 @@ export class StateBase {
         countryId : number;
 //#endregion countryId Prop
 
+
+
+
+
+
+
+
+
+
+
 }

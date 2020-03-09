@@ -23,4 +23,12 @@ export class CityBase {
         cityName : string;
 //#endregion cityName Prop
 
+
+
+
+
+
+
+
+
 }

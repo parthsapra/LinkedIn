@@ -9,8 +9,10 @@ using LinkedInApplication.UnitOfWork.DbEntityAudit;
 using LinkedInApplication.BoundedContext.Main;
 using LinkedInApplication.UnitOfWork.Main;
 using LinkedInApplication.Domain.UserModule;
-           
-#endregion Namespace
+            using LinkedInApplication.UnitOfWork.Lookups;
+            using LinkedInApplication.Domain.CompanyModule;
+            #endregion Namespace
+
 
 
 
@@ -35,17 +37,20 @@ namespace LinkedInApplication.Api.Bootstrap
 
             serviceCollection.AddScoped<ILoginContext, LoginContext>();
             serviceCollection.AddScoped<ILoginUow, LoginUow>();
-                        serviceCollection.AddScoped<IMasterContext, MasterContext>();
+            serviceCollection.AddScoped<IMasterContext, MasterContext>();
             serviceCollection.AddScoped<IMasterUow, MasterUow>();
-                        serviceCollection.AddScoped<IUserContext, UserContext>();
+            serviceCollection.AddScoped<IUserContext, UserContext>();
             serviceCollection.AddScoped<IUserUow, UserUow>();
-                        serviceCollection.AddScoped<ICompanyContext, CompanyContext>();
+            serviceCollection.AddScoped<ICompanyContext, CompanyContext>();
             serviceCollection.AddScoped<ICompanyUow, CompanyUow>();
-                  serviceCollection.AddScoped<IMasterContext, MasterContext>();
-            serviceCollection.AddScoped<IMasterUow, MasterUow>();
-                        serviceCollection.AddScoped<ILookupContext, LookupContext>();
-            serviceCollection.AddScoped<ILookupUow, LookupUow>();
+            serviceCollection.AddScoped<ILocationUow, LocationUow>();
+                        serviceCollection.AddScoped<ILocationLookupContext, LocationLookupContext>();
+            serviceCollection.AddScoped<ILocationLookupUow, LocationLookupUow>();
+                        serviceCollection.AddScoped<ILocationLookupContext, LocationLookupContext>();
+            serviceCollection.AddScoped<ILocationLookupUow, LocationLookupUow>();
             #endregion ContextService
+
+
 
 
 
@@ -58,10 +63,36 @@ namespace LinkedInApplication.Api.Bootstrap
 
             #region DomainService
 
-            
+
             serviceCollection.AddScoped<IUserDomain, UserDomain>();
+            
             serviceCollection.AddScoped<ILinkedInUserDomain, LinkedInUserDomain>();
+            
+            serviceCollection.AddScoped<IUserExperienceDomain, UserExperienceDomain>();
+            
+            serviceCollection.AddScoped<IDesignationDomain, DesignationDomain>();
+            
+            serviceCollection.AddScoped<ICompanyDetailDomain, CompanyDetailDomain>();
+            
+            serviceCollection.AddScoped<ICompanyDetailDomain, CompanyDetailDomain>();
+            
+            
+            serviceCollection.AddScoped<IUserCertificationDomain, UserCertificationDomain>();
+            
+            serviceCollection.AddScoped<IUserEducationDetailDomain, UserEducationDetailDomain>();
+            
+            serviceCollection.AddScoped<IUserSkillDomain, UserSkillDomain>();
+            
+            serviceCollection.AddScoped<IPostDomain, PostDomain>();
             #endregion DomainService
+
+
+
+
+
+
+
+
 
 
 

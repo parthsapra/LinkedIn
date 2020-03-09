@@ -20,7 +20,7 @@ namespace LinkedInApplication.Domain.UserModule
 
         public Task<object> GetBy(User entity)
         {
-            //return await 
+            
             throw new NotImplementedException();
         }
         

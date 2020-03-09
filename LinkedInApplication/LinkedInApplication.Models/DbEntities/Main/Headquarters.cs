@@ -31,6 +31,7 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
+        [RelationshipTableAttribue("Countries","dbo","","CountryId")]
 		#endregion CountryId Annotations
 
         public int CountryId { get; set; }
@@ -39,6 +40,7 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
+        [RelationshipTableAttribue("States","dbo","","StateId")]
 		#endregion StateId Annotations
 
         public int StateId { get; set; }
@@ -47,6 +49,7 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
+        [RelationshipTableAttribue("Cities","dbo","","CityId")]
 		#endregion CityId Annotations
 
         public int CityId { get; set; }
@@ -55,12 +58,45 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
+        [RelationshipTableAttribue("Companies","dbo","","CompanyId")]
 		#endregion CompanyId Annotations
 
         public int CompanyId { get; set; }
 
 
         public Nullable<System.DateTime> FoundDate { get; set; }
+
+		#region City Annotations
+
+        [ForeignKey(nameof(CityId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.City.Headquarters))]
+		#endregion City Annotations
+
+        public virtual City City { get; set; }
+
+		#region Company Annotations
+
+        [ForeignKey(nameof(CompanyId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.Company.Headquarters))]
+		#endregion Company Annotations
+
+        public virtual Company Company { get; set; }
+
+		#region Country Annotations
+
+        [ForeignKey(nameof(CountryId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.Country.Headquarters))]
+		#endregion Country Annotations
+
+        public virtual Country Country { get; set; }
+
+		#region State Annotations
+
+        [ForeignKey(nameof(StateId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.State.Headquarters))]
+		#endregion State Annotations
+
+        public virtual State State { get; set; }
 
 
         public Headquarters()

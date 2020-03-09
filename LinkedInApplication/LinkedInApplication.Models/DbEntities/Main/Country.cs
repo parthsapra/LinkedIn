@@ -27,9 +27,41 @@ namespace LinkedInApplication.Models.Main
 
         public string CountryName { get; set; }
 
+		#region States Annotations
+
+        [InverseProperty("Country")]
+		#endregion States Annotations
+
+        public virtual ICollection<State> States { get; set; }
+
+		#region Headquarters Annotations
+
+        [InverseProperty("Country")]
+		#endregion Headquarters Annotations
+
+        public virtual ICollection<Headquarters> Headquarters { get; set; }
+
+		#region CompanyDetails Annotations
+
+        [InverseProperty("Country")]
+		#endregion CompanyDetails Annotations
+
+        public virtual ICollection<CompanyDetail> CompanyDetails { get; set; }
+
+		#region UserDetails Annotations
+
+        [InverseProperty("Country")]
+		#endregion UserDetails Annotations
+
+        public virtual ICollection<UserDetail> UserDetails { get; set; }
+
 
         public Country()
         {
+			States = new HashSet<State>();
+			Headquarters = new HashSet<Headquarters>();
+			CompanyDetails = new HashSet<CompanyDetail>();
+			UserDetails = new HashSet<UserDetail>();
         }
 	}
 }

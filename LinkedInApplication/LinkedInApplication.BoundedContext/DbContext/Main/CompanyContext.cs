@@ -16,11 +16,14 @@ namespace LinkedInApplication.BoundedContext.Main
         public CompanyContext(MainSqlDbContext sqlDbContext, IOptions<DatabaseConfig> databaseConfig, IHttpContextAccessor contextAccessor, ITenantDbConnectionInfo tenantDbConnection) : base(sqlDbContext, databaseConfig.Value, contextAccessor, tenantDbConnection) { }
 
         #region DbSets
-        public DbSet<Company> Companies {get;set; }
-        public DbSet<vCompanyDetail> vCompanyDetails { get; set; }
+        public DbSet<Company> Company { get; set; }
+        public DbSet<vCompanyDetail> vCompanyDetail { get; set; }
+        public DbSet<Headquarters> Headquarter { get; set; }
+        public DbSet<Job> Job { get; set; }
+        public DbSet<Speciality> Speciality { get; set; }
+        public DbSet<Document> Documents { get; set; }
+        #endregion DbSets
 
-
-            #endregion DbSets
 
     }
 

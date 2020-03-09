@@ -40,15 +40,6 @@ namespace LinkedInApplication.Models.Main
         public string LocaleCode { get; set; }
 
 
-        public string UserLastName { get; set; }
-
-
-        public string UserMobileNumber { get; set; }
-
-
-        public string UserEmail { get; set; }
-
-
         public vUser()
         {
         }

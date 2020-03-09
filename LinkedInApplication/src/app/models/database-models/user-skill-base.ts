@@ -23,6 +23,4 @@ export class UserSkillBase {
         userSkillName : string;
 //#endregion userSkillName Prop
 
-
-
 }

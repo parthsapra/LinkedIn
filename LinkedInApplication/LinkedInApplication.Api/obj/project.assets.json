@@ -2131,7 +2131,10 @@
         },
         "runtime": {
           "bin/placeholder/LinkedInApplication.Domain.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "LinkedInApplication.Infrastructure/1.0.0": {
         "type": "project",
@@ -2151,7 +2154,10 @@
         },
         "runtime": {
           "bin/placeholder/LinkedInApplication.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "LinkedInApplication.Models/1.0.0": {
         "type": "project",
@@ -7215,11 +7221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LinkedInApplication\\LinkedInApplication.Api\\LinkedInApplication.Api.csproj",
+      "projectUniqueName": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Api\\LinkedInApplication.Api.csproj",
       "projectName": "LinkedInApplication.Api",
-      "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Api\\LinkedInApplication.Api.csproj",
+      "projectPath": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Api\\LinkedInApplication.Api.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "D:\\LinkedInApplication\\LinkedInApplication.Api\\obj\\",
+      "outputPath": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7235,20 +7241,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
+            "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj": {
+              "projectPath": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.BoundedContext\\LinkedInApplication.BoundedContext.csproj"
             },
-            "D:\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj"
+            "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj": {
+              "projectPath": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Domain\\LinkedInApplication.Domain.csproj"
             },
-            "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj"
+            "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj": {
+              "projectPath": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Infrastructure\\LinkedInApplication.Infrastructure.csproj"
             },
-            "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj"
+            "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj": {
+              "projectPath": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.Models\\LinkedInApplication.Models.csproj"
             },
-            "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj": {
-              "projectPath": "D:\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj"
+            "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj": {
+              "projectPath": "E:\\GitmainBACKUP\\LinkedInApplication\\LinkedInApplication.UnitOfWork\\LinkedInApplication.UnitOfWork.csproj"
             }
           }
         }

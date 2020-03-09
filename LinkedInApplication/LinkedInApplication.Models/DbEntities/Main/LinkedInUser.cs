@@ -35,8 +35,12 @@ namespace LinkedInApplication.Models.Main
 
         public string LILastName { get; set; }
 
+		#region LIRegistrationDate Annotations
 
-        public Nullable<System.DateTime> LIRegistrationDate { get; set; }
+        [Required]
+		#endregion LIRegistrationDate Annotations
+
+        public System.DateTimeOffset LIRegistrationDate { get; set; }
 
 		#region LIEmailId Annotations
 
@@ -55,40 +59,27 @@ namespace LinkedInApplication.Models.Main
 
         public Nullable<bool> IsActive { get; set; }
 
-		#region LIPassword Annotations
+		#region Password Annotations
 
+        [Required]
         [MaxLength(50)]
-		#endregion LIPassword Annotations
+		#endregion Password Annotations
 
-        public byte[] LIPassword { get; set; }
+        public byte[] Password { get; set; }
 
-		#region LISalt Annotations
+		#region Salt Annotations
 
-        [MaxLength(50)]
-		#endregion LISalt Annotations
+        [MaxLength(140)]
+		#endregion Salt Annotations
 
-        public byte[] LISalt { get; set; }
+        public byte[] Salt { get; set; }
 
-		#region UserSkills Annotations
-
-        [InverseProperty("LinkedInUser")]
-		#endregion UserSkills Annotations
-
-        public virtual ICollection<UserSkill> UserSkills { get; set; }
-
-		#region UserExperienceDetails Annotations
+		#region Documents Annotations
 
         [InverseProperty("LinkedInUser")]
-		#endregion UserExperienceDetails Annotations
+		#endregion Documents Annotations
 
-        public virtual ICollection<UserExperienceDetail> UserExperienceDetails { get; set; }
-
-		#region UserEducationDetails Annotations
-
-        [InverseProperty("LinkedInUser")]
-		#endregion UserEducationDetails Annotations
-
-        public virtual ICollection<UserEducationDetail> UserEducationDetails { get; set; }
+        public virtual ICollection<Document> Documents { get; set; }
 
 		#region Posts Annotations
 
@@ -97,12 +88,12 @@ namespace LinkedInApplication.Models.Main
 
         public virtual ICollection<Post> Posts { get; set; }
 
-		#region UserCertifications Annotations
+		#region UserExperienceDetails Annotations
 
         [InverseProperty("LinkedInUser")]
-		#endregion UserCertifications Annotations
+		#endregion UserExperienceDetails Annotations
 
-        public virtual ICollection<UserCertification> UserCertifications { get; set; }
+        public virtual ICollection<UserExperienceDetail> UserExperienceDetails { get; set; }
 
 		#region Designations Annotations
 
@@ -111,6 +102,13 @@ namespace LinkedInApplication.Models.Main
 
         public virtual ICollection<Designation> Designations { get; set; }
 
+		#region UserCertifications Annotations
+
+        [InverseProperty("LinkedInUser")]
+		#endregion UserCertifications Annotations
+
+        public virtual ICollection<UserCertification> UserCertifications { get; set; }
+
 		#region UserDetails Annotations
 
         [InverseProperty("LinkedInUser")]
@@ -118,16 +116,23 @@ namespace LinkedInApplication.Models.Main
 
         public virtual ICollection<UserDetail> UserDetails { get; set; }
 
+		#region UserEducationDetails Annotations
+
+        [InverseProperty("LinkedInUser")]
+		#endregion UserEducationDetails Annotations
+
+        public virtual ICollection<UserEducationDetail> UserEducationDetails { get; set; }
+
 
         public LinkedInUser()
         {
-			UserSkills = new HashSet<UserSkill>();
-			UserExperienceDetails = new HashSet<UserExperienceDetail>();
-			UserEducationDetails = new HashSet<UserEducationDetail>();
+			Documents = new HashSet<Document>();
 			Posts = new HashSet<Post>();
-			UserCertifications = new HashSet<UserCertification>();
+			UserExperienceDetails = new HashSet<UserExperienceDetail>();
 			Designations = new HashSet<Designation>();
+			UserCertifications = new HashSet<UserCertification>();
 			UserDetails = new HashSet<UserDetail>();
+			UserEducationDetails = new HashSet<UserEducationDetail>();
         }
 	}
 }

@@ -13,7 +13,7 @@ namespace LinkedInApplication.Api.Controllers.MasterModule
 	public class StateLookupsController : BaseLookupController
 
     {
-        public StateLookupsController(ILookupUow uow):base(uow) {}
+        public StateLookupsController(IMasterUow uow):base(uow) {}
 
         #region Lookups
         		[HttpGet("State")]

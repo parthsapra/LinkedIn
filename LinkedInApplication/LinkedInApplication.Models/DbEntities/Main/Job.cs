@@ -23,6 +23,7 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
+        [RelationshipTableAttribue("Companies","dbo","","CompanyId")]
 		#endregion CompanyId Annotations
 
         public int CompanyId { get; set; }
@@ -86,6 +87,14 @@ namespace LinkedInApplication.Models.Main
 
 
         public Nullable<System.DateTime> JobCreateDate { get; set; }
+
+		#region Company Annotations
+
+        [ForeignKey(nameof(CompanyId))]
+        [InverseProperty(nameof(LinkedInApplication.Models.Main.Company.Jobs))]
+		#endregion Company Annotations
+
+        public virtual Company Company { get; set; }
 
 
         public Job()

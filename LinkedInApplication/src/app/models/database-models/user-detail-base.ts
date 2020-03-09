@@ -10,6 +10,13 @@ export class UserDetailBase {
 //#endregion userDetailId Prop
 
 
+//#region userId Prop
+        @range({minimumNumber:1,maximumNumber:2147483647})
+        @required()
+        userId : number;
+//#endregion userId Prop
+
+
 //#region gender Prop
         @range({minimumNumber:1,maximumNumber:2147483647})
         @required()
@@ -59,11 +66,10 @@ export class UserDetailBase {
 //#endregion headline Prop
 
 
-//#region userId Prop
-        @range({minimumNumber:1,maximumNumber:2147483647})
-        @required()
-        userId : number;
-//#endregion userId Prop
+
+
+
+
 
 
 

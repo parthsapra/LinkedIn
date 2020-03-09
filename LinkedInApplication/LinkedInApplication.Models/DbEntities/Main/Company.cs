@@ -65,9 +65,33 @@ namespace LinkedInApplication.Models.Main
 
         public string CompanyType { get; set; }
 
+		#region Headquarters Annotations
+
+        [InverseProperty("Company")]
+		#endregion Headquarters Annotations
+
+        public virtual ICollection<Headquarters> Headquarters { get; set; }
+
+		#region CompanyDetails Annotations
+
+        [InverseProperty("Company")]
+		#endregion CompanyDetails Annotations
+
+        public virtual ICollection<CompanyDetail> CompanyDetails { get; set; }
+
+		#region Jobs Annotations
+
+        [InverseProperty("Company")]
+		#endregion Jobs Annotations
+
+        public virtual ICollection<Job> Jobs { get; set; }
+
 
         public Company()
         {
+			Headquarters = new HashSet<Headquarters>();
+			CompanyDetails = new HashSet<CompanyDetail>();
+			Jobs = new HashSet<Job>();
         }
 	}
 }

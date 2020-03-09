@@ -49,4 +49,10 @@ export class CompanyBase {
         companyType : string;
 //#endregion companyType Prop
 
+
+
+
+
+
+
 }

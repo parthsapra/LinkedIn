@@ -1,19 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
-using LinkedInApplication.UnitOfWork.Main;
+using LinkedInApplication.Domain.UserModule;
 using LinkedInApplication.Models.Main;
 using RxWeb.Core.AspNetCore;
 using RxWeb.Core.Security.Authorization;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LinkedInApplication.Api.Controllers.UserModule
 {
     [ApiController]
     [Route("api/[controller]")]
-	
-	public class UserSkillsController : BaseController<UserSkill,UserSkill,UserSkill>
+	[AllowAnonymous]
+	public class UserSkillsController : BaseDomainController<UserSkill, UserSkill>
 
     {
-        public UserSkillsController(IUserUow uow):base(uow) {}
+        public UserSkillsController(IUserSkillDomain domain):base(domain) {}
 
     }
 }

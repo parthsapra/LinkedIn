@@ -11,83 +11,83 @@ namespace LinkedInApplication.Domain.UserModule
 {
     public class LinkedInUserDomain : ILinkedInUserDomain
     {
-        public LinkedInUserDomain(IUserUow uow, IPasswordHash passwordHash)
-        {
+        public LinkedInUserDomain(IUserUow uow, IPasswordHash passwordHash) {
             this.Uow = uow;
             PasswordHash = passwordHash;
         }
 
-        public async Task<object> GetAsync(LinkedInUserAuth entity)
+        public async Task<object> GetAsync(LInkedInUserAuth parameters)
         {
-
-            //return await PasswordHash.Encrypt(entity.LIPassword);
             return await Uow.Repository<LinkedInUser>().AllAsync();
+           // throw new NotImplementedException();
         }
 
-        public async Task<object> GetBy(LinkedInUserAuth entity)
+        public async Task<object> GetBy(LInkedInUserAuth parameters)
         {
-            var user = await Uow.Repository<LinkedInUser>().SingleOrDefaultAsync(t => t.LIEmailId == entity.LIEmailId);
-            if (user != null && PasswordHash.VerifySignature(entity.LIPassword, user.LIPassword, user.LISalt))
+            var user = await Uow.Repository<LinkedInUser>().FirstOrDefaultAsync(t => (t.LIEmailId == parameters.LIEmailId) || (t.LIMobileNumber==parameters.LIMobileNumber));
+            if (user != null && PasswordHash.VerifySignature(parameters.Password,user.Password,user.Salt))
             {
-                return await Task.FromResult("success");
+                 return await Task.FromResult(user); 
             }
             else
             {
-                return await Task.FromResult("Please Enter Valid Credentials");
+                return await Task.FromResult(0);
             }
+            //throw new NotImplementedException();
         }
-        public HashSet<string> AddValidation(LinkedInUserAuth entity)
+        
+
+        public HashSet<string> AddValidation(LInkedInUserAuth entity)
         {
             return ValidationMessages;
         }
 
-        private IPasswordHash PasswordHash { get; set; }
-
-        public async Task AddAsync(LinkedInUserAuth entity)
+        public async Task AddAsync(LInkedInUserAuth entity)
         {
-            PasswordResult passwordResult = PasswordHash.Encrypt(entity.LIPassword);
+            PasswordResult passwordResult = PasswordHash.Encrypt(entity.Password);
             LinkedInUser linkedInUser = new LinkedInUser();
-            linkedInUser.LIPassword = passwordResult.Signature;
-            linkedInUser.LISalt = passwordResult.Salt;
+            linkedInUser.Password = passwordResult.Signature;
+            linkedInUser.Salt = passwordResult.Salt;
             linkedInUser.LIFirstName = entity.LIFirstName;
             linkedInUser.LILastName = entity.LILastName;
             linkedInUser.LIRegistrationDate = entity.LIRegistrationDate;
             linkedInUser.IsActive = entity.IsActive;
             linkedInUser.LIMobileNumber = entity.LIMobileNumber;
             linkedInUser.LIEmailId = entity.LIEmailId;
-
             await Uow.RegisterNewAsync(linkedInUser);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> UpdateValidation(LinkedInUserAuth entity)
+        public HashSet<string> UpdateValidation(LInkedInUserAuth entity)
         {
             return ValidationMessages;
         }
 
-        public async Task UpdateAsync(LinkedInUserAuth entity)
+        public async Task UpdateAsync(LInkedInUserAuth entity)
         {
             await Uow.RegisterDirtyAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation(LinkedInUserAuth entity)
+        public HashSet<string> DeleteValidation(LInkedInUserAuth parameters)
         {
             return ValidationMessages;
         }
 
-        public async Task DeleteAsync(LinkedInUserAuth entity)
+        public async Task DeleteAsync(LInkedInUserAuth parameters)
         {
-            LinkedInUser linkedInUser = new LinkedInUser();
-            var userid = Uow.Repository<LinkedInUser>().FindByKey(linkedInUser.LIUserId);
-            await Uow.RegisterDeletedAsync(userid);
+            //var LinkedInUser = Uow.Repository<LinkedInUser>().FindByAsync(t=> t.LIUserId==parameters.LIUserId);
+            await Uow.RegisterDeletedAsync(parameters);
             await Uow.CommitAsync();
+            //throw new NotImplementedException();
         }
 
         public IUserUow Uow { get; set; }
 
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
+        private IPasswordHash PasswordHash { get; set; }
+
     }
 
-    public interface ILinkedInUserDomain : ICoreDomain<LinkedInUserAuth, LinkedInUserAuth> { }
+    public interface ILinkedInUserDomain : ICoreDomain<LInkedInUserAuth, LInkedInUserAuth> { }
 }

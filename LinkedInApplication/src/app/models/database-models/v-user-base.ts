@@ -51,22 +51,4 @@ export class vUserBase {
         localeCode : string;
 //#endregion localeCode Prop
 
-
-//#region userLastName Prop
-        @gridColumn({visible: true, columnIndex:8, allowSorting: true, headerKey: 'userLastName', keyColumn: false})
-        userLastName : string;
-//#endregion userLastName Prop
-
-
-//#region userMobileNumber Prop
-        @gridColumn({visible: true, columnIndex:9, allowSorting: true, headerKey: 'userMobileNumber', keyColumn: false})
-        userMobileNumber : string;
-//#endregion userMobileNumber Prop
-
-
-//#region userEmail Prop
-        @gridColumn({visible: true, columnIndex:10, allowSorting: true, headerKey: 'userEmail', keyColumn: false})
-        userEmail : string;
-//#endregion userEmail Prop
-
 }

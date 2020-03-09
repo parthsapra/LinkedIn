@@ -16,5 +16,4 @@ export class vCountry extends vCountryBase
 
 
 
-
 }

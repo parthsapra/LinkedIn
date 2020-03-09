@@ -44,7 +44,6 @@ namespace LinkedInApplication.Api.Controllers
             if (user != null && PasswordHash.VerifySignature(authentication.Password, user.Password, user.Salt))
             {
                 var token = await ApplicationTokenProvider.GetTokenAsync(user);
-                
                 return Ok(token);
             }
             else

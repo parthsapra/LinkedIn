@@ -75,4 +75,6 @@ export class JobBase {
         jobCreateDate : Date;
 //#endregion jobCreateDate Prop
 
+
+
 }

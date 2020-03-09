@@ -5,7 +5,7 @@ using LinkedInApplication.Models.Main;
 using RxWeb.Core.AspNetCore;
 using RxWeb.Core.Security.Authorization;
 
-namespace LinkedInApplication.Api.Controllers.MasterModule
+namespace LinkedInApplication.Api.Controllers.CountryLookupModule
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -13,7 +13,7 @@ namespace LinkedInApplication.Api.Controllers.MasterModule
 	public class CountryLookupsController : BaseLookupController
 
     {
-        public CountryLookupsController(ILookupUow uow):base(uow) {}
+        public CountryLookupsController(IMasterUow uow):base(uow) {}
 
         #region Lookups
         		[HttpGet("Country")]

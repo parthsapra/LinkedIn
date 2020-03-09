@@ -23,7 +23,6 @@ namespace LinkedInApplication.Models.Main
 
         [Range(1,int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("LinkedInUsers","dbo","","UserId")]
 		#endregion UserId Annotations
 
         public int UserId { get; set; }
@@ -35,14 +34,6 @@ namespace LinkedInApplication.Models.Main
 		#endregion UserSkillName Annotations
 
         public string UserSkillName { get; set; }
-
-		#region LinkedInUser Annotations
-
-        [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(LinkedInApplication.Models.Main.LinkedInUser.UserSkills))]
-		#endregion LinkedInUser Annotations
-
-        public virtual LinkedInUser LinkedInUser { get; set; }
 
 
         public UserSkill()

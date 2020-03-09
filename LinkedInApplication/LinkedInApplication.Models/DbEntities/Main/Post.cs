@@ -26,13 +26,8 @@ namespace LinkedInApplication.Models.Main
 
         public string PostText { get; set; }
 
-		#region PostMediaTypeId Annotations
 
-        [Range(1,int.MaxValue)]
-        [Required]
-		#endregion PostMediaTypeId Annotations
-
-        public int PostMediaTypeId { get; set; }
+        public Nullable<int> PostMediaTypeId { get; set; }
 
 
         public string PostMediaURL { get; set; }

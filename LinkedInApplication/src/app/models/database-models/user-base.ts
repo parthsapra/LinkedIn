@@ -65,30 +65,6 @@ export class UserBase {
 //#endregion statusId Prop
 
 
-//#region userLastName Prop
-        @maxLength({value:50})
-        userLastName : string;
-//#endregion userLastName Prop
-
-
-//#region userMobileNumber Prop
-        @maxLength({value:50})
-        userMobileNumber : string;
-//#endregion userMobileNumber Prop
-
-
-//#region userEmail Prop
-        @maxLength({value:50})
-        userEmail : string;
-//#endregion userEmail Prop
-
-
-//#region userRegisterDate Prop
-        @prop()
-        userRegisterDate : any;
-//#endregion userRegisterDate Prop
-
-
 
 
 
